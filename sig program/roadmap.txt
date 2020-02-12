@@ -1,0 +1,31 @@
+﻿===============================================================
+       Standalone Interactive Graphics (SIG) Toolkit
+           Copyright (c) 2018-2019 Marcelo Kallmann
+===============================================================
+
+===== Todo =====
+
+- replace: GsEvent type: Keyboard->KeyPress, WsViewer handle_keyboard()->handle_key_press()
+- Support for additional image maps: normals, specular, etc
+- Complete glfw integration
+- Review file loading by GsModel and KnSkeleton
+- Review and complete example programs
+
+===== Searchable Labels Tracking Work in Progress =====
+
+- SkinDev:  skeletal skinning
+- CamDev:   updates to camera control
+- UiDev:	user interface development
+- UiKeyDev: inclusion of key navigation in UI
+- LightDev: Shader support for multiple lights
+- SgDev:	scene graph development
+- ManipDev: development to include rotation in SnManipulator
+- TodoNote: functionality not yet implemented
+- ImprNote: possible functionality improvement
+- PerfNote: note concerning performance
+
+===== State of Examples =====
+
+- uidemo: review alignment in panels including key cmds
+- skelviewer: complete motions and skin integration
+- modelviewer: complete manipulation and processing of multiple models

@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="scene actions">
+      <UniqueIdentifier>{13f6f20a-c72e-469f-ad3f-4096a0f930bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene nodes">
+      <UniqueIdentifier>{847a0bd9-41f1-43cc-aa4c-526f274c1e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="col det interface">
+      <UniqueIdentifier>{12ef71af-e35b-4b29-8b5d-d68e3e3c169e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics and system">
+      <UniqueIdentifier>{1e326d16-e0ee-4039-a603-32eb6f38a792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\sig\cd_implementation.cpp">
+      <Filter>col det interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\cd_manager.cpp">
+      <Filter>col det interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_box.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_color.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_dirs.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_euler.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_event.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_image.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_input.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_light.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_line.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_mat.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_material.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_math.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_matn.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model_3ds.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model_io.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model_iv.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model_make.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_model_obj.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_output.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_plane.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_polygon.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_polygons.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_primitive.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_quat.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_scandir.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_time.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_timer.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_trackball.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_vec.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_vec2.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_action.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_bbox.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_eps_export.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_event.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_model_export.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_render_mode.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sa_touch.cpp">
+      <Filter>scene actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_color_surf.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_editor.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_group.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_lines.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_lines2.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_manipulator.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_model.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_node.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_points.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_polygons.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_primitive.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_shape.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_transform.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_planar_objects.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_geo2.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_shareable.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_stroke_font.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_poly_editor.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_text.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_rect.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_font.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_cfg.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_camera.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_array.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_buffer.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_graph.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_grid.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_list.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_list_node.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_slot_map.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_string.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_strings.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_table.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_tree.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_val.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_var.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_vars.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\sn_material.cpp">
+      <Filter>scene nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sig\gs_vis_graph.cpp">
+      <Filter>graphics and system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\sig\cd_implementation.h">
+      <Filter>col det interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\cd_manager.h">
+      <Filter>col det interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_box.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_color.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_dirs.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_euler.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_event.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_image.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_input.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_light.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_line.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_manager.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_mat.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_material.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_math.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_matn.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_model.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_output.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_plane.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_polygon.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_polygons.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_primitive.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_quat.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_random.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_scandir.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_time.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_timer.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_trace.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_trackball.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_vec.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_vec2.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_action.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_bbox.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_eps_export.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_event.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_model_export.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_render_mode.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sa_touch.h">
+      <Filter>scene actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_color_surf.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_editor.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_group.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_lines.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_lines2.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_manipulator.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_model.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_node.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_points.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_polygons.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_primitive.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_shape.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_transform.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sig\stb_image.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sig\stb_image_write.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_planar_objects.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_heap.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_shareable.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_stroke_font.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_poly_editor.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_text.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_rect.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_font.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_cfg.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_camera.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_array.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_buffer.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_graph.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_grid.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_list.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_list_node.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_queue.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_slot_map.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_string.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_strings.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_table.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_tree.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_val.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_var.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_vars.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_geo2.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\sn_material.h">
+      <Filter>scene nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sig\gs_vis_graph.h">
+      <Filter>graphics and system</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

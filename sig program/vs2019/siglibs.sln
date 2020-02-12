@@ -1,0 +1,105 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{A80692A1-9BA4-4CC6-85AD-A4FE98B9C217}"
+	ProjectSection(SolutionItems) = preProject
+		..\apachev2.txt = ..\apachev2.txt
+		..\license.txt = ..\license.txt
+		..\notice.txt = ..\notice.txt
+		..\readme.txt = ..\readme.txt
+		..\roadmap.txt = ..\roadmap.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{1CAB85D9-B1C2-4192-8013-FD53A0D7EBA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsig", "libsig.vcxproj", "{FFD591E4-0A07-4D79-95BC-8D567204FD10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsigkin", "libsigkin.vcxproj", "{4829BD9B-1379-49B0-9463-3E9846873934}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10} = {FFD591E4-0A07-4D79-95BC-8D567204FD10}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsigogl", "libsigogl.vcxproj", "{A93CE437-94D0-49F6-B9C7-15B20EB33736}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10} = {FFD591E4-0A07-4D79-95BC-8D567204FD10}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsigos", "libsigos.vcxproj", "{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736} = {A93CE437-94D0-49F6-B9C7-15B20EB33736}
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10} = {FFD591E4-0A07-4D79-95BC-8D567204FD10}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseDll|x64 = ReleaseDll|x64
+		ReleaseDll|x86 = ReleaseDll|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Debug|x64.ActiveCfg = Debug|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Debug|x64.Build.0 = Debug|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Debug|x86.Build.0 = Debug|Win32
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Release|x64.ActiveCfg = Release|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Release|x64.Build.0 = Release|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Release|x86.ActiveCfg = Release|Win32
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.Release|x86.Build.0 = Release|Win32
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.ReleaseDll|x64.ActiveCfg = ReleaseDll|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.ReleaseDll|x64.Build.0 = ReleaseDll|x64
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Debug|x64.ActiveCfg = Debug|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Debug|x64.Build.0 = Debug|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Debug|x86.ActiveCfg = Debug|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Debug|x86.Build.0 = Debug|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Release|x64.ActiveCfg = Release|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Release|x64.Build.0 = Release|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Release|x86.ActiveCfg = Release|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.Release|x86.Build.0 = Release|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.ReleaseDll|x64.ActiveCfg = ReleaseDll|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.ReleaseDll|x64.Build.0 = ReleaseDll|x64
+		{4829BD9B-1379-49B0-9463-3E9846873934}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{4829BD9B-1379-49B0-9463-3E9846873934}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Debug|x64.ActiveCfg = Debug|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Debug|x64.Build.0 = Debug|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Debug|x86.ActiveCfg = Debug|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Debug|x86.Build.0 = Debug|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Release|x64.ActiveCfg = Release|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Release|x64.Build.0 = Release|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Release|x86.ActiveCfg = Release|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.Release|x86.Build.0 = Release|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.ReleaseDll|x64.ActiveCfg = ReleaseDll|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.ReleaseDll|x64.Build.0 = ReleaseDll|x64
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Debug|x64.ActiveCfg = Debug|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Debug|x64.Build.0 = Debug|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Debug|x86.Build.0 = Debug|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Release|x64.ActiveCfg = Release|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Release|x64.Build.0 = Release|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Release|x86.ActiveCfg = Release|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.Release|x86.Build.0 = Release|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.ReleaseDll|x64.ActiveCfg = ReleaseDll|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.ReleaseDll|x64.Build.0 = ReleaseDll|x64
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.ReleaseDll|x86.ActiveCfg = ReleaseDll|Win32
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B}.ReleaseDll|x86.Build.0 = ReleaseDll|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFD591E4-0A07-4D79-95BC-8D567204FD10} = {1CAB85D9-B1C2-4192-8013-FD53A0D7EBA9}
+		{4829BD9B-1379-49B0-9463-3E9846873934} = {1CAB85D9-B1C2-4192-8013-FD53A0D7EBA9}
+		{A93CE437-94D0-49F6-B9C7-15B20EB33736} = {1CAB85D9-B1C2-4192-8013-FD53A0D7EBA9}
+		{F118CFD1-9B34-4142-B9DC-3E76FF5B817B} = {1CAB85D9-B1C2-4192-8013-FD53A0D7EBA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6A01F6D-2491-496E-97B6-B9D9E21ED62C}
+	EndGlobalSection
+EndGlobal

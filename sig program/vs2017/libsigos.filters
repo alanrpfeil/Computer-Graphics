@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{c4fdec35-ea59-41da-81a6-af3f8f2c6d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window system">
+      <UniqueIdentifier>{76b453dd-295e-45ff-83d6-ba8f4b5231cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open gl">
+      <UniqueIdentifier>{46313baa-999d-457a-9757-c60ff7caf148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface">
+      <UniqueIdentifier>{edba33d4-24f1-4825-bf70-6ba53617d849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shape renderers">
+      <UniqueIdentifier>{4e502d3a-88d5-4b40-bd52-3d21b8836700}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\3dtextured.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dtextured.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dphong.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\2dcoloredsc.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\dftext.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\flat.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\gouraud.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\phong.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\dftext.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\shadefunc.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\2dcolored.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\2dsmooth.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dflat.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dgouraud.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dphongmc.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\phongmc.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\2dtextured.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\2dtextured.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\sigogl\wsint_opengl_glinit.inc">
+      <Filter>window system</Filter>
+    </None>
+    <None Include="..\shaders\3dsmooth.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\3dsmoothsc.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\sigogl\gl_context.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_core.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_objects.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_program.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_renderer.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_resources.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_shader.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_texture.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_tools.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_types.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glcorearb.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glcorearb_functions.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_base.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_lines.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_lines2.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_model.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_planar_objects.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_points.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_button.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_check_button.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_color_chooser.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_element.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_file_chooser.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_input.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_label.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_output.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_panel.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_radio_button.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_slider.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_style.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ws_dialog.h">
+      <Filter>window system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ws_run.h">
+      <Filter>window system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ws_viewer.h">
+      <Filter>window system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ws_window.h">
+      <Filter>window system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sigogl\wsint.h">
+      <Filter>window system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_dialogs.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\glr_text.h">
+      <Filter>shape renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\gl_font.h">
+      <Filter>open gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigogl\ui_manager.h">
+      <Filter>user interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\sigogl\gl_context.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_objects.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_program.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_renderer.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_resources.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_shader.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_texture.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_tools.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_base.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_lines.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_lines2.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_model.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_planar_objects.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_points.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_button.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_check_button.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_color_chooser.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_element.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_file_chooser.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_input.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_label.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_output.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_panel.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_radio_button.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_slider.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_style.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ws_dialog.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ws_run.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ws_viewer.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ws_window.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\wsint_mswin.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\wsint_opengl.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\wsint_x11.cpp">
+      <Filter>window system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_dialogs.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\glr_text.cpp">
+      <Filter>shape renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\gl_font.cpp">
+      <Filter>open gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigogl\ui_manager.cpp">
+      <Filter>user interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\shaders\notes.txt">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

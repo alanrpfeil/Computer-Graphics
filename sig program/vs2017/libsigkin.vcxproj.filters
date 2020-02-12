@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="skeleton">
+      <UniqueIdentifier>{be688cbb-fdd2-4a92-8c86-e2a6514fa0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{3a860fa3-9f2f-4a76-acf5-4a3d712e7f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ik">
+      <UniqueIdentifier>{262f9c6f-4d8a-42e2-9e33-383c98014394}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\sigkin\kn_controller.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ct_motion.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ct_posture.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ct_scheduler.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ik.cpp">
+      <Filter>ik</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ik_body.cpp">
+      <Filter>ik</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ik_manipulator.cpp">
+      <Filter>ik</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_channel.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_channels.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_coldet.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint_euler.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint_name.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint_pos.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint_rot.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_joint_st.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_motion.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_motion_io.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_posture.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_scene.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_skeleton.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_skeleton_io.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_skin.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_vec_limits.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_ik_solver.cpp">
+      <Filter>ik</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_mconnection.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_fbx_importer.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sigkin\kn_skin_scene.cpp">
+      <Filter>skeleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\sigkin\kn_controller.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ct_motion.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ct_posture.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ct_scheduler.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ik.h">
+      <Filter>ik</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ik_body.h">
+      <Filter>ik</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ik_manipulator.h">
+      <Filter>ik</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_channel.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_channels.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_coldet.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint_euler.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint_name.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint_pos.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint_rot.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_joint_st.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_motion.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_posture.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_scene.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_skeleton.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_skin.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_vec_limits.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_ik_solver.h">
+      <Filter>ik</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_mconnection.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_fbx_importer.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sigkin\kn_skin_scene.h">
+      <Filter>skeleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
