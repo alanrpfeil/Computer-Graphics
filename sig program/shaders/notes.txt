@@ -1,0 +1,35 @@
+
+Fragment shaders are of 3 main types:
+
+  flat, gouraud, phong
+
+Vertex shaders main format: [2d|3d][appearance]<sc|mc>
+
+  sc: single color
+  mc: multi color
+  appearance:
+  colored: no normals, flat colors per vertex or single color [sc]
+  smooth:  no normals, interpolated colors per vertex or single color [sc]
+  flat:	   illumination per face, per vertex normals
+  gouraud: illumination per vertex, per vertex normals
+  phong:   illumination per pixel, per vertex normals, possibly per vertex color [mc]
+
+Default programs:
+
+  2dcolored:   vs2dcolored, fsflat
+  2dcoloredsc: vs2dcoloredsc, fsflat
+  2dsmooth:    vs2dsmooth, fsgouraud
+  3dsmooth:		 vs3dsmooth, fsgouraud
+  3dsmoothsc:	 vs3dsmoothsc, fsgouraud
+  3dflat:		   vs3dflat, vshadefunc, fsflat
+  3dgouraud:	 vs3dgouraud, vshadefunc, fsgouraud
+  3dtextured:	 vs3dtextured, vshadefunc, fs3dtextured
+  3dphong:		 vs3dphong, fsphong, fshadefunc
+  3dphongmc:	 vs3dphongmc, fsphongmc, fshadefunc
+  dftext:		   dftext.vert, dftext.frag
+  2dtextured:	 2dtextured.vert, 2dtextured.frag
+
+Important Notes:
+
+- Transformation matrices in shaders are collumn-major, OpenGL style
+- Transformation matrices in cpp code are line-major, math style
