@@ -1,0 +1,9 @@
+﻿  my_viewer.cpp
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(19,14): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(20,14): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(257,10): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(271,10): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(285,10): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\src\my_viewer.cpp(299,10): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  sigapp.vcxproj -> C:\Users\Alan\Downloads\CSE170\sigapplab5\lab4\sigapplab4\vs2019\\obj\sigapp_Release_Win32_v142\sigapp32mt.exe
+          1 file(s) copied.
