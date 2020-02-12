@@ -1,0 +1,5 @@
+﻿  my_viewer.cpp
+C:\Users\Alan\Downloads\CSE170\PA6\sigpolyed\src\my_viewer.cpp(97,63): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\PA6\sigpolyed\src\my_viewer.cpp(97,119): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+  polyed.vcxproj -> C:\Users\Alan\Downloads\CSE170\PA6\sigpolyed\vs2019\\obj\polyed_Debug_x64_v142\polyed64mdd.exe
+          1 file(s) copied.
