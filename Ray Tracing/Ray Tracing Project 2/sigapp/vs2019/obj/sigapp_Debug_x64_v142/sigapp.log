@@ -1,0 +1,6 @@
+﻿  my_viewer.cpp
+C:\Users\Alan\Downloads\CSE170\Ray Tracing Project 2\sigapp\src\my_viewer.cpp(204,14): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\Ray Tracing Project 2\sigapp\src\my_viewer.cpp(209,59): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alan\Downloads\CSE170\Ray Tracing Project 2\sigapp\src\my_viewer.cpp(210,52): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  sigapp.vcxproj -> C:\Users\Alan\Downloads\CSE170\Ray Tracing Project 2\sigapp\vs2019\\obj\sigapp_Debug_x64_v142\sigapp64mdd.exe
+          1 file(s) copied.
