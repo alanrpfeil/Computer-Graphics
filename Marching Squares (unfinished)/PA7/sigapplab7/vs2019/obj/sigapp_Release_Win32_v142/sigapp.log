@@ -1,0 +1,8 @@
+﻿  glr_mynode.cpp
+  my_viewer.cpp
+C:\Users\Alan\Downloads\CSE170\PA7 optional march squares\PA7\sigapplab7\src\my_viewer.cpp(20,14): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Alan\Downloads\CSE170\PA7 optional march squares\PA7\sigapplab7\src\my_viewer.cpp(21,14): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\Alan\Downloads\CSE170\PA7 optional march squares\PA7\sigapplab7\src\my_viewer.cpp(80,34): error C2027:  use of undefined type 'SnPoints'
+  sn_mygrid.cpp
+  Generating Code...
+C:\Users\Alan\Downloads\CSE170\PA7 optional march squares\PA7\sig\include\sig\sn_polygons.h(22): message :  see declaration of 'SnPoints'
